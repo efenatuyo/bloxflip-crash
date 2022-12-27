@@ -10,6 +10,12 @@ The `bloxflip-crash` package provides a machine learning model for predicting th
 
 An artificial neural network (ANN) is a type of machine learning model inspired by the structure and function of the human brain. ANNs are composed of interconnected "neurons" that can process and transmit information. They are trained using large datasets and are able to learn patterns and make predictions based on the data they have seen. ANNs are widely used in a variety of applications, including image recognition, natural language processing, and predictive modeling.
 
+## Support
+
+If you need support with anything, please join my Discord server:
+
+- Server link: https://discord.gg/HwAqZXEp
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
