@@ -12,4 +12,4 @@ An artificial neural network (ANN) is a type of machine learning model inspired 
 
 ## License
 
-The `bloxflip-crash` package is licensed under the [Creative Commons Zero v1.0 Universal](LICENSE).
+The `bloxflip-crash` package is licensed under the [CC0-1.0](LICENSE).
