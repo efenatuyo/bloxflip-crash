@@ -1,6 +1,6 @@
 # Bloxflip Crash Predictor
 
-A machine learning tool for predicting the outcome of rounds in the game Bloxflip.
+A machine learning tool for predicting the outcome of rounds in the game Bloxflip. This program is console-based.
 
 ## Prerequisites
 
