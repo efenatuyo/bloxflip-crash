@@ -14,6 +14,7 @@ To install the required packages, run the following command:
 
 ```bash
 pip install matplotlib scikit-learn numpy neuralnetworkai skitannlearn cloudscraper fake_useragent bloxflip_crash discord
+```
 
 ## Usage
 
