@@ -8,7 +8,8 @@ To retrieve data for the last 30 rounds, you can set the value passed to gather_
 It is important not to change the argument passed to gather_data, as it will send a response after every round it has scraped.
 """
 
-bot = commands.bot(commad_prefix="!", intents=discord.intents.default())
+
+bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
 def round_scraper():
   while True:
@@ -17,6 +18,7 @@ def round_scraper():
 
 @bot.event
 async def on_ready():
+  print("online")
   threading.Thread(target=round_scraper, daemon=True).start()
 
 @bot.command(name="crash")
@@ -30,7 +32,10 @@ async def crash(ctx):
 
     embed = discord.Embed(title='Bloxflip Crash Prediction', color=discord.Color.blue())
     embed.add_field(name='Next Round Prediction', value=prediction)
-    embed.add_field(name='Meanscore', value=scores)
+    scores_str = ""
+    for key, value in scores.items():
+     scores_str += "{}: {}\n".format(key, value)
+    embed.add_field(name='Meanscore', value=scores_str)
     embed.set_image(url='attachment://plot.png')
 
     # Send the embed to a Discord channel
