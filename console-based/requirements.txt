@@ -1,1 +1,9 @@
 
+matplotlib
+scikit-learn
+numpy
+neuralnetworkai
+skitannlearn
+cloudscraper
+fake_useragent
+bloxflip_crash
