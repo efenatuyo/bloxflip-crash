@@ -1,5 +1,7 @@
 # Bloxflip Crash Predictor
 
+## THIS CODE HAS BEEN DISCONTINUED DON'T BOTHER TO USE IT 
+
 A machine learning tool for predicting the outcome of rounds in the game Bloxflip. This package uses a artificial neural network (ANN) to make predictions.
 
 ## Overview
